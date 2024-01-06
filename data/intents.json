@@ -1,0 +1,99 @@
+{"intents": [
+    {"tag": "salam",
+     "patterns": ["Hai kamu siapa?", "Hi siapa kamu", "halo apa kabar?", "Apa Kabar", "Selamat Pagi", "Selamat Siang", "Selamat Malam", "Salam", "Ping", "tanya sesuatu"],
+     "responses": ["Halo! aku adalah chatbot otomatis, kalo ada yang bingung langsung tanya aja ya kak, tapi aku masih terbatas nih hanya seputar pmb dan pertanyaan umum seputar unpam aja ya kak", "Halo, ada yang bisa dibantu kak?", "Halo kak salam kenal, kalo ada yang mau ditanya seputar mahasiswa baru dan beberapa pertanyaan umum jangan ragu untuk bertanya ya!"]
+    },
+    {"tag": "bye",
+     "patterns": ["Dadah", "Selamat Tinggal", "Dah", "Daah", "Semoga harimu menyenangkan", "Ok makasih", "Sampai Jumpa Lagi", "Ok bye"],
+     "responses": ["iya! Sampai jumpa lagi yaa", "oke! Kalau ada masalah, hubungi aku lagi ya", "oke! Semoga harimu menyenangkan!"]
+    },
+    {"tag": "waktu_reguler",
+     "patterns": ["waktu kuliah kapan aja?", "reguler yang ada apa?", "jam kuliah kapan aja?", "berapa jam kuliah?", "kuliah berapa lama","reguler ada apa aja"],
+     "responses": ["ada 4 reguler yaitu: <br>A(Pagi) senin-jumat jam 7.00-14.00 <br>B(Malam) senin-jumat jam 18.30-21.30 <br>CS(Sabtu) jam 7.00-17.30 <br>CK(Kamis) jam 7.00-17.30","di unpam itu ada 4 reguler ya kak yaitu: <br>A(Pagi) senin-jumat jam 7.00-14.00 <br>B(Malam) senin-jumat jam 18.30-21.30 <br>CS(Sabtu) jam 7.00-17.30 <br>CK(Kamis) jam 7.00-17.30", "jam kuliah  reguler di unpam itu ada 4 reguler kak yaitu: <br>A(Pagi) senin-jumat jam 7.00-14.00 <br>B(Malam) senin-jumat jam 18.30-21.30 <br>CS(Sabtu) jam 7.00-17.30 <br>CK(Kamis) jam 7.00-17.30"]
+    },
+    {"tag": "fakultas",
+     "patterns": ["fakultas apa aja nih?", "ada fakultas apa?", "berapa banyak fakultas?", "fakultasnya apa aja tuh?","ada berapa fakultas"],
+     "responses": ["Fakultas di UNPAM tuh ada 10 kak, yaitu <br>MIPA, Teknik, Ilmu Komputer, Ekonomi dan Bisnis, Sastra, Hukum, FKIP, Fakultas Agama Islam, Ilmu Komunikasi dan Pascasarjana","di unpam itu punya 10 fakultas kak, keren kan? fakultasnya diantara lain yaitu <br>MIPA, Teknik, Ilmu Komputer, Ekonomi dan Bisnis, Sastra, Hukum, FKIP, Fakultas Agama Islam, Ilmu Komunikasi dan Pascasarjana","Universitas Pamulang memiliki 10 fakultas diantaranya yaitu <br>MIPA, Teknik, Ilmu Komputer, Ekonomi dan Bisnis, Sastra, Hukum, FKIP, Fakultas Agama Islam, Ilmu Komunikasi dan Pascasarjana"]
+    },
+    {"tag": "biaya_kuliah",
+    "patterns": ["berapa biaya kuliah di unpam?", "biaya persemester di unpam berapa?", "biaya kuliah?"],
+    "responses": ["Biaya Perkuliahan Program Diploma D3, Diploma D4 dan Sarjana S1<br>Reguler A (Pagi) & B (Malam) sebagai berikut :<br>-Biaya Kuliah : 1.200.000,-/Semester<br>-Biaya Praktek Fakultas Teknik, MIPA, Ilmu Komputer dan Program Studi Pendidikan Jasamani S1  : 100.000,-/Semester<br>-Dapat diangsur : 200.000,-/Per angsuran<br>-Biaya UTS : 250.000,-<br>-Biaya UAS : 250.000,-<br>-Jaket Almamater dan KTM (Kartu Tanda Mahasiswa) : 200.000,-<br>-Iuran Kesehatan : 50.000,-/Semester<br>-Registrasi Awal Semester : 150.000,-Semester<br>-Total yang harus dibayarkan ketika dinyatakan LULUS SPMB : 600.000,-<br><br>Reguler CK (Kamis) & CS (Sabtu) Sebagai Berikut :<br>-Biaya Kuliah Fakultas Non Teknik : 1.800.000,-/Semester<br>-Biaya Praktek Fakultas Teknik, MIPA, Ilmu Komputer dan Program Studi Pendidikan Jasamani S1 : 150.000,-/Semester<br>-Dapat diangsur : 300.000,-/per angsuran<br>-Biaya UTS : 350.000,-<br>-Biaya UAS : 350.000,-<br>-Jaket Almamater dan KTM (Kartu Tanda Mahasiswa) : 200.000,-<br>-Iuran Kesehatan : 50.000,-/Semester <br>-Registrasi Awal Semester : 150.000,-Semester<br>-Angsuran Biaya Kuliah : 300.000,-<br>-Total yang harus dibayarkan ketika dinyatakan LULUS SPMB : 700.000,-","Ini aku kasih detail biaya kuliah di unpam ya! <br>Biaya Perkuliahan Program Diploma D3, Diploma D4 dan Sarjana S1<br>Reguler A (Pagi) & B (Malam) sebagai berikut :<br>-Biaya Kuliah : 1.200.000,-/Semester<br>-Biaya Praktek Fakultas Teknik, MIPA, Ilmu Komputer dan Program Studi Pendidikan Jasamani S1  : 100.000,-/Semester<br>-Dapat diangsur : 200.000,-/Per angsuran<br>-Biaya UTS : 250.000,-<br>-Biaya UAS : 250.000,-<br>-Jaket Almamater dan KTM (Kartu Tanda Mahasiswa) : 200.000,-<br>-Iuran Kesehatan : 50.000,-/Semester<br>-Registrasi Awal Semester : 150.000,-Semester<br>-Total yang harus dibayarkan ketika dinyatakan LULUS SPMB : 600.000,-<br><br>Reguler CK (Kamis) & CS (Sabtu) Sebagai Berikut :<br>-Biaya Kuliah Fakultas Non Teknik : 1.800.000,-/Semester<br>-Biaya Praktek Fakultas Teknik, MIPA, Ilmu Komputer dan Program Studi Pendidikan Jasamani S1 : 150.000,-/Semester<br>-Dapat diangsur : 300.000,-/per angsuran<br>-Biaya UTS : 350.000,-<br>-Biaya UAS : 350.000,-<br>-Jaket Almamater dan KTM (Kartu Tanda Mahasiswa) : 200.000,-<br>-Iuran Kesehatan : 50.000,-/Semester <br>-Registrasi Awal Semester : 150.000,-Semester<br>-Angsuran Biaya Kuliah : 300.000,-<br>-Total yang harus dibayarkan ketika dinyatakan LULUS SPMB : 700.000,-"]
+    },
+    {"tag": "jam_operasional_pmb",
+    "patterns": ["jam berapa saya bisa datang ke pmb?", "kapan jam pmb buka?", "jam kerja pmb kapan?", "kapan saya bisa datang langsung ke pmb?"],
+    "responses": ["Untuk jam operasional kerja pmb dari senin - jumat itu di jam 9 pagi - 7 malam, sabtu jam 9 pagi sampai jam 3 sore <br>*tanggal merah dan hari minggu libur ya kak" , "Kalo kamu ada perlu untuk datang ke PMB, perhatikan jam kerjanya sebagai berikut: <br>Untuk jam operasional kerja pmb dari senin - jumat itu di jam 9 pagi - 7 malam, sabtu jam 9 pagi sampai jam 3 sore <br>*tanggal merah dan hari minggu libur"]
+    },
+    {"tag": "biaya_formulir_pendaftaran",
+     "patterns": ["ambil formulir pendaftaran bayar", "biaya untuk pengambilan formulir pendaftaran","bayar untuk ambil formulir pendaftaran?","biaya formulir","harga formulir", "biaya formulir pendaftaran di unpam"],
+     "responses": ["Kalo mau ambil formulir pendaftaran itu gratis ya kak, tidak dipungut biaya apapun :)" , "silahkan untuk pengambilan formulir pendaftaran itu tanpa dipungut biaya apapun" , "tidak ada biaya untuk formulir pendaftaran, kemungkinan penipuan jika memang ada ya"]
+    },
+    {"tag": "cara_daftar_online",
+     "patterns": ["daftar online gimana sih kak?", "daftar online bingung", "tutor daftar online","daftar online"],
+     "responses": ["kamu bingung cara daftar online? semua caranya ada di website pmb.unpam.ac.id kok, jangan lupa bilang makasih hehe" ,"Semua informasi dan cara pendaftaran ada di website pmb.unpam.ac.id , silahkan di cek!"]
+    },
+    {"tag": "sks",
+     "patterns": ["sks dalam satu semester", "1 semester berapa sks", "sks untuk s1", "sks untuk s2", "sks lulus", "ada berapa total sks di unpam"],
+     "responses": ["S1 dalam satu semester ada 18 sks sampai 21 sks. Dan untuk S2 ada 9 SKS s.d 12 SKS", "kalo di Universitas Pamulang itu S1 ada 18 s.d 21 SKS kak, dan kalo S2 dari 9 s.d 12 SKS kak"]
+    },
+    {"tag": "mahasiswa_pindahan",
+    "patterns": ["unpam menerima mahasiswa pindahan", "bisa melakukan pindahan", "menerima pindahan", "mahasiswa pindahan"],
+    "responses": ["kami di unpam tidak menerima mahasiswa pindahan kak, adapun mengulang dari awal lagi", "unpam tidak menerima mahasiswa pindahan ya kak, kecuali mau mengulang dari awal semester :)" , "Untuk saat ini Universitas Pamulang tidak menerima mahasiswa pindahan"]
+    },
+    {"tag": "ujian_spmb_online",
+    "patterns": ["ujian spmb online?", "cara ujian spmb online","spmb online"],
+    "responses": ["kamu bingung cara ujian spmb online? semua caranya ada di website spmb.unpam.ac.id , jangan lupa makasih! hehe","Semua tata cara ujian SPMB online ada di website spmb.unpam.ac.id"]
+    },
+    {"tag": "pindah_program_studi",
+    "patterns": ["pindah program studi?", "gimana pindah program studi?", "pindah program studi","pindah jurusan"],
+    "responses": ["cara pindah prodi yaitu syaratnya harus tuntas 1 semester dulu kak, setelah selesai UAS nilai sudah keluar semua IPK sudah ada, langsung lapor ke prodi ingin pindah prodi ya kak. adapun syarat yang tambahan yang harus dipenuhi yaitu : <br>1) print bukti keuangan 1 semester, <br>2) print transkip nilai, <br>3) meminta surat pindah prodi ke bagian pmb (lantai dasar gedung A unpam pusat) <br>*beberapa resiko pindah prodi. <br>1)mengulang lagi dari semester awal, <br>2)mengikuti tes spmb kembali, jika lulus SPMB perlu registrasi dan foto KTM & pengambilan almamater","pindah prodi yaitu syaratnya harus tuntas 1 semester dulu, setelah selesai UAS nilai sudah keluar semua IPK sudah ada, langsung lapor ke prodi ingin pindah prodi. adapun syarat yang tambahan yang harus dipenuhi yaitu : <br>1) print bukti keuangan 1 semester, <br>2) print transkip nilai, <br>3) meminta surat pindah prodi ke bagian pmb (lantai dasar gedung A unpam pusat) <br>*beberapa resiko pindah prodi. <br>1)mengulang lagi dari semester awal, <br>2)mengikuti tes spmb kembali, jika lulus SPMB perlu registrasi dan foto KTM & pengambilan almamater"]
+    },
+    {"tag": "metode_pembelajaran",
+    "patterns": ["kuliah di unpam online atau offline", "kuliah offline atau online", "ada kuliah online","metode belajar online offline","kuliah di unpam offlien", "metode belajar di unpam seperti apa?"],
+    "responses": ["Metode pembelajaran di UNPAM full OFFLINE / TATAP MUKA Adapun dibantu dengan metode LMS ","Di Universitas Pamulang metode pembelajarannya itu FULL OFFLINE/TATAP MUKA ya kak,selain itu ada juga dengan menggunakan LMS"]
+    },
+    {"tag": "verifikasi_daftar_online",
+    "patterns": ["lama proses verifikasi daftar online", "sudah daftar online belum terverifikasi", "verifikasi daftar online"],
+    "responses": ["untuk proses verifikasi itu dilakukan satu persatu kak selama jam kerja, jangan lupa sesuai antrian juga ya kak","proses verifikasi itu dilakukan satu persatu selama jam kerja, jangan lupa sesuai antrian juga ya"]
+    },
+    {"tag": "waktu kuliah s2",
+    "patterns": ["kuliah s2 kapan aja?", "waktu kuliah s2", "hari kuliah s2","jam kuliah s2","jam kuliah s2 kapan aja?"],
+    "responses": ["waktu perkuliahan pascasarjana untuk Reg A itu : <br>1) Selasa & rabu jam 08:00 s/d 13:00 WIB. <br>2) Rabu & Jumat jam 13:00 s/d 18.15 WIB. <br>Reg B <br>1) Rabu & Jumat (Blended) jam 18:20 s/d 21.20 WIB. <br>2) Selasa s/d Jumat jam 18:20 s/d 20.50 WIB" , "Jadi kak, waktu perkuliahan pascasarjana di Universitas Pamulang untuk Reg A yaitu : <br>1) Selasa & rabu jam 08:00 s/d 13:00 WIB. <br>2) Rabu & Jumat jam 13:00 s/d 18.15 WIB. <br>Reg B <br>1) Rabu & Jumat (Blended) jam 18:20 s/d 21.20 WIB. <br>2) Selasa s/d Jumat jam 18:20 s/d 20.50 WIB"]
+    },
+    {"tag": "error_login_pmb_online",
+    "patterns": ["login di pmb online tapi tidak bisa", "error tidak bisa login", "tidak bisa login pmb online","error login pmb online"],
+    "responses": ["Silahkan anda klik lupa password pada laman pmb online, anda cek dispam/kotak masuk, jika tidak ada notifikasi maka kami alihkan anda mendaftar offline dikampus Unpam Pusat Pamulang Auditorium, atau mendaftar dengan menggunakan email yang berbeda." , "Kalo kamu ada kendala pada saat login PMB online, bisa coba beberapa cara ini: <br>-Silahkan anda klik lupa password pada laman pmb online <br>-cek dispam/kotak masuk <br>-jika tidak ada notifikasi maka kami alihkan anda mendaftar offline dikampus Unpam Pusat Pamulang Auditorium <br>-mendaftar dengan menggunakan email yang berbeda."]
+    },
+    {"tag": "pendaftaran_mahasiswa_baru",
+    "patterns": ["unpam buka pendaftaran mahasiswa baru?", "buka pendaftaran mahasiswa baru unpam", "pendaftaran mahasiswa baru","buka pendaftaran maba"],
+    "responses": ["Kami buka pendaftaran 1 tahun 2 kali ada semester ganjil dan genap ", "Dalam 1 tahun, Universitas Pamulang membuka pendaftaran sebanyak 2 kali pada saat semester ganjil dan genap"]
+    },
+    {"tag": "hasil_tes_spmb",
+    "patterns": ["setelah test informasi kelulusan keluar", "lama hasil pengumuman kelulusan tes spmb", "pengumuman kelulusan test spmb", "pengumuman hasil tes spmb"],
+    "responses": ["untuk informasi kelulusan itu setelah 3 hari ujian berakhir ya kak, kalo masih belum keluar mohon ditunggu :)","Informasi hasil kelulusan tes SPMB akan keluar 3 hari setelah ujian berakhir"]
+    },
+    {"tag": "metode_pendaftaran",
+    "patterns": ["daftar lewat apa", "bisa daftar online", "apakah bisa daftar offline", "pendaftaran lewat online dan offline", "pendaftaran cuma offline"],
+    "responses": ["Pendaftaran bisa dilakukan kedua nya, apabila offline datang langsung ke Unpam Pusat atau Unpam Viktor, kalo mau online langsung aja ke website pmb.unpam.ac.id" ,"Pendaftaran bisa dilakukan lewat keduanya ya kak, kalo mau offline datang langsung ke Unpam Pusat atau Unpam Viktor, misal mau online langsung aja akses website pmb.unpam.ac.id ya kak"]
+    },
+    {"tag": "perbedaan_web_pmb_spmb",
+    "patterns": ["bedanya web pmb dan spmb", "yang membedakan web spmb pmb", "web pmb untuk apa dan web spmb"],
+    "responses": ["untuk perbedaan web pmb yaitu<br>1.Website pmb.unpam.ac.id untuk mendaftar online <br>2.Website spmb.unpam.ac.id untuk test spmb online. <br>udah ngerti kan? awas jangan sampe salah masuk website ya!" , "Perbedaan kedua web tersebut yaitu<br>1.Website pmb.unpam.ac.id untuk mendaftar online <br>2.Website spmb.unpam.ac.id untuk test spmb online. <br>semoga kamu udah ngerti"]
+    },
+    {"tag": "pindah_reguler_prodi",
+    "patterns": ["pindah reguler udah daftar tapi belum ikut test?", "cara pindah reguler", "boleh pindah reguler","pindah reguler", "cara pindah prodi di unpam"],
+    "responses": ["kalo mau pindah reguler/prodi itu selambat-lambat nya konfirmasi H-7 Sebelum berakhir nya pendaftaran pada gelombang tersebut", "kamu bisa pindah reguler/prodi itu selambat-lambat nya konfirmasi H-7 Sebelum berakhir nya pendaftaran pada gelombang tersebut"]
+    },
+    {"tag": "maba_keluar_masuk",
+    "patterns": ["mahasiswa status keluar mendaftar kembali", "pernah keluar unpam mau kuliah di unpam", "keluar masuk unpam"],
+    "responses": ["Mahasiswa dengan status Keluar bisa mendaftar kembali menjadi MABA mengikuti alur dari awal pendaftaran sampai keterima menjadi MABA (Mengulang dari awal semester 1)." , "Kalo kamu Mahasiswa dengan status Keluar tentu bisa mendaftar kembali menjadi MABA di unpam mengikuti alur dari awal pendaftaran sampai keterima menjadi MABA (Mengulang dari awal semester 1)."]
+    },
+    {"tag": "berapa_program_studi",
+    "patterns": ["berapa program studi di unpam", "berapa banyak program studi", "apakah ada program studi"],
+    "responses": ["Di unpam sendiri ada 25 prodi kak, mulai dari <br>1)Program Studi Sarjana (S1)<br>-Matematika<br>-Teknik elektro<br>-Teknik Mesin<br>-Teknik Industri<br>-Teknik Kimia<br>-Teknik Elektro<br>-Teknik Informatika<br>-Sistem Informasi<br>-Manajemen<br>-Akuntansi<br>-Sastra Inggris<br>-Sastra Indonesia<br>-Hukum<br>-PPKN<br>-Pendidikan Ekonomi<br>-PGSD<br>-Pendidikan Jasmani<br>-Manajemen Pendidikan Islam<br>-Ekomoni Syariah<br>-Ilmu Komunikasi<br>2)Program Diploma<br>-Akuntansi Perpajakan D4<br>-Administrasi perkanoran D3<br>3)Program Pascasarjana (S2)<br>-Magister Manajemen<br>-Magister Akuntansi<br>-Magister Hukum<br>-Magister Komputer" , "Universitas Pamulang memiliki 25 prodi, mulai dari <br>1)Program Studi Sarjana (S1)<br>-Matematika<br>-Teknik elektro<br>-Teknik Mesin<br>-Teknik Industri<br>-Teknik Kimia<br>-Teknik Elektro<br>-Teknik Informatika<br>-Sistem Informasi<br>-Manajemen<br>-Akuntansi<br>-Sastra Inggris<br>-Sastra Indonesia<br>-Hukum<br>-PPKN<br>-Pendidikan Ekonomi<br>-PGSD<br>-Pendidikan Jasmani<br>-Manajemen Pendidikan Islam<br>-Ekomoni Syariah<br>-Ilmu Komunikasi<br>2)Program Diploma<br>-Akuntansi Perpajakan D4<br>-Administrasi perkanoran D3<br>3)Program Pascasarjana (S2)<br>-Magister Manajemen<br>-Magister Akuntansi<br>-Magister Hukum<br>-Magister Komputer"]
+    },
+    {"tag": "konversi_lanjutan_unpam",
+    "patterns": ["apa aja syarat konversi di unpam", "disiapkan untuk konversi unpam", "konversi lanjutan dari dalam unpam"],
+    "responses": ["untuk syarat konversi antara lain :<br>- Ijazah D3 & Transkrip nilai D3 (cap legalisir asli)<br>- Foto terbaru dan berwarna (formal) ukuran 3x4 sebanyak 2 lembar<br>- fotocopy KTP (1 lembar)<br>- Materai 10.00 (2 lembar)<br>- Akta kelahiran atau Kartu keluarga (1 lembar)" ,"kalo mau konversi syaratnya yaitu :<br>- Ijazah D3 & Transkrip nilai D3 (cap legalisir asli)<br>- Foto terbaru dan berwarna (formal) ukuran 3x4 sebanyak 2 lembar<br>- fotocopy KTP (1 lembar)<br>- Materai 10.00 (2 lembar)<br>- Akta kelahiran atau Kartu keluarga (1 lembar)"]
+    }
+]
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHATBOT</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">CHATBOT</div>
+        <div class="chat-content" id="chat-content"></div>
+        <div id="typing-indicator" style="display: none;">Bot: <span class="typing-dots">...</span></div> <!-- Tambahkan ini -->
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="Type your message...">
+            <button id="send-btn">Send</button>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
