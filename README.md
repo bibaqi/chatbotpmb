@@ -5,7 +5,8 @@ Klon repositori dengan menjalankan :
 ```bash
 git clone https://github.com/nama_pengguna/nama_proyek.git
 ```
-Pindah atau buka direktori proyek :
+atau download ZIP secara manual<br><br>
+Buka terminal, pindah atau buka direktori proyek :
 
 ```bash
 cd chatbotpmb
@@ -15,8 +16,7 @@ Buat virtual environment:<br>
 ```bash
 python -m venv venv
 ```
-Aktifkan virtual environment<br>
-Di Windows : 
+Aktifkan virtual environment di windows : 
 ```bash
 venv\Scripts\activate
 ```
