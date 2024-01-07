@@ -2,7 +2,7 @@
 <h4><b>#Instalasi</b></h4><br>
 <b>Instalasi Python</b><br><br>
 Pastikan Python sudah terinstal di sistem Anda. Jika belum, Anda dapat mengunduh dan menginstal Python dari situs resmi https://www.python.org/<br><br>
-Klon repositori dengan menjalankan
+Clone repositori dengan menjalankan
 
 ```bash
 git clone https://github.com/bibaqi/chatbotpmb.git
