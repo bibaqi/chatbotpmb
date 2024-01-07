@@ -3,7 +3,7 @@
 Klon repositori dengan menjalankan :
 
 ```bash
-git clone https://github.com/nama_pengguna/nama_proyek.git
+git clone https://github.com/bibaqi/chatbotpmb
 ```
 atau download ZIP secara manual<br><br>
 Buka terminal, pindah atau buka direktori proyek :
