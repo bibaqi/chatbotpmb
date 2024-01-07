@@ -3,10 +3,6 @@
      "patterns": ["Hai kamu siapa?", "Hi siapa kamu", "halo apa kabar?", "Apa Kabar", "Selamat Pagi", "Selamat Siang", "Selamat Malam", "Salam", "Ping", "tanya sesuatu"],
      "responses": ["Halo! aku adalah chatbot otomatis, kalo ada yang bingung langsung tanya aja ya kak, tapi aku masih terbatas nih hanya seputar pmb dan pertanyaan umum seputar unpam aja ya kak", "Halo, ada yang bisa dibantu kak?", "Halo kak salam kenal, kalo ada yang mau ditanya seputar mahasiswa baru dan beberapa pertanyaan umum jangan ragu untuk bertanya ya!"]
     },
-    {"tag": "bye",
-     "patterns": ["Dadah", "Selamat Tinggal", "Dah", "Daah", "Semoga harimu menyenangkan", "Ok makasih", "Sampai Jumpa Lagi", "Ok bye"],
-     "responses": ["iya! Sampai jumpa lagi yaa", "oke! Kalau ada masalah, hubungi aku lagi ya", "oke! Semoga harimu menyenangkan!"]
-    },
     {"tag": "waktu_reguler",
      "patterns": ["waktu kuliah kapan aja?", "reguler yang ada apa?", "jam kuliah kapan aja?", "berapa jam kuliah?", "kuliah berapa lama","reguler ada apa aja"],
      "responses": ["ada 4 reguler yaitu: <br>A(Pagi) senin-jumat jam 7.00-14.00 <br>B(Malam) senin-jumat jam 18.30-21.30 <br>CS(Sabtu) jam 7.00-17.30 <br>CK(Kamis) jam 7.00-17.30","di unpam itu ada 4 reguler ya kak yaitu: <br>A(Pagi) senin-jumat jam 7.00-14.00 <br>B(Malam) senin-jumat jam 18.30-21.30 <br>CS(Sabtu) jam 7.00-17.30 <br>CK(Kamis) jam 7.00-17.30", "jam kuliah  reguler di unpam itu ada 4 reguler kak yaitu: <br>A(Pagi) senin-jumat jam 7.00-14.00 <br>B(Malam) senin-jumat jam 18.30-21.30 <br>CS(Sabtu) jam 7.00-17.30 <br>CK(Kamis) jam 7.00-17.30"]
