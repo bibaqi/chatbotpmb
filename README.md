@@ -1,6 +1,6 @@
 <h1>Instruksi Pengguna</h1><br>
 <h4><b>#Instalasi</b></h4><br>
-<b>Instalasi Python</b><br><br>
+<b>InstalL Python</b><br><br>
 Pastikan Python sudah terinstal di sistem Anda. Jika belum, Anda dapat mengunduh dan menginstal Python dari situs resmi https://www.python.org/<br><br>
 Clone repositori dengan menjalankan
 
