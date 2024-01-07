@@ -13,6 +13,10 @@ Buka terminal, pindah atau buka direktori proyek :
 ```bash
 cd chatbotpmb
 ```
+Install virutal environment
+```bash
+pip install virtualenv
+```
 Buat virtual environment:<br>
 
 ```bash
