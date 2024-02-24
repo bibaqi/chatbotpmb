@@ -57,7 +57,7 @@
     },
     {"tag": "waktu kuliah s2",
     "patterns": ["kuliah s2 kapan aja?", "waktu kuliah s2", "hari kuliah s2","jam kuliah s2","jam kuliah s2 kapan aja?"],
-    "responses": ["waktu perkuliahan pascasarjana untuk Reg A itu : <br>1) Selasa & rabu jam 08:00 s/d 13:00 WIB. <br>2) Rabu & Jumat jam 13:00 s/d 18.15 WIB. <br>Reg B <br>1) Rabu & Jumat (Blended) jam 18:20 s/d 21.20 WIB. <br>2) Selasa s/d Jumat jam 18:20 s/d 20.50 WIB" , "Jadi kak, waktu perkuliahan pascasarjana di Universitas Pamulang untuk Reg A yaitu : <br>1) Selasa & rabu jam 08:00 s/d 13:00 WIB. <br>2) Rabu & Jumat jam 13:00 s/d 18.15 WIB. <br>Reg B <br>1) Rabu & Jumat (Blended) jam 18:20 s/d 21.20 WIB. <br>2) Selasa s/d Jumat jam 18:20 s/d 20.50 WIB"]
+    "responses": ["waktu perkuliahan pascasarjana yaitu:<br>Reg A<br>1) Selasa & rabu jam 08:00 s/d 13:00 WIB. <br>2) Rabu & Jumat jam 13:00 s/d 18.15 WIB. <br>Reg B <br>1) Rabu & Jumat (Blended) jam 18:20 s/d 21.20 WIB. <br>2) Selasa s/d Jumat jam 18:20 s/d 20.50 WIB" , "Jadi kak, waktu perkuliahan pascasarjana di Universitas Pamulang untuk Reg A yaitu : <br>1) Selasa & rabu jam 08:00 s/d 13:00 WIB. <br>2) Rabu & Jumat jam 13:00 s/d 18.15 WIB. <br>Reg B <br>1) Rabu & Jumat (Blended) jam 18:20 s/d 21.20 WIB. <br>2) Selasa s/d Jumat jam 18:20 s/d 20.50 WIB"]
     },
     {"tag": "error_login_pmb_online",
     "patterns": ["login di pmb online tapi tidak bisa", "error tidak bisa login", "tidak bisa login pmb online","error login pmb online"],
