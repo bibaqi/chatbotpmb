@@ -22,7 +22,7 @@ def bot_response(chat, pipeline, jp):
     chat = preprocess(chat)
     res = pipeline.predict_proba([chat])
     max_prob = max(res[0])
-    if max_prob < 0.162:
+    if max_prob < 0.163:
         return "Maaf, tidak mengerti" , None
     else:
         max_id = np.argmax(res[0])
