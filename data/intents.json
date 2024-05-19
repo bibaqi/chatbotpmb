@@ -3,10 +3,6 @@
      "patterns": ["Hai kamu siapa?", "Hi siapa kamu", "halo apa kabar?", "Apa Kabar", "Selamat Pagi", "Selamat Siang", "Selamat Malam", "Salam", "Ping", "tanya sesuatu"],
      "responses": ["Halo! aku adalah chatbot otomatis, kalo ada yang bingung langsung tanya aja ya kak, tapi aku masih terbatas nih hanya seputar pmb dan pertanyaan umum seputar unpam aja ya kak", "Halo, ada yang bisa dibantu kak?", "Halo kak salam kenal, kalo ada yang mau ditanya seputar mahasiswa baru dan beberapa pertanyaan umum jangan ragu untuk bertanya ya!"]
     },
-    {"tag": "bye",
-     "patterns": ["Dadah", "Selamat Tinggal", "Dah", "Daah", "Semoga harimu menyenangkan", "Ok makasih", "Sampai Jumpa Lagi", "Ok bye"],
-     "responses": ["iya! Sampai jumpa lagi yaa", "oke! Kalau ada masalah, hubungi aku lagi ya", "oke! Semoga harimu menyenangkan!"]
-    },
     {"tag": "waktu_reguler",
      "patterns": ["waktu kuliah kapan aja?", "reguler yang ada apa?", "jam kuliah kapan aja?", "berapa jam kuliah?", "kuliah berapa lama","reguler ada apa aja"],
      "responses": ["ada 4 reguler yaitu: <br>A(Pagi) senin-jumat jam 7.00-14.00 <br>B(Malam) senin-jumat jam 18.30-21.30 <br>CS(Sabtu) jam 7.00-17.30 <br>CK(Kamis) jam 7.00-17.30","di unpam itu ada 4 reguler ya kak yaitu: <br>A(Pagi) senin-jumat jam 7.00-14.00 <br>B(Malam) senin-jumat jam 18.30-21.30 <br>CS(Sabtu) jam 7.00-17.30 <br>CK(Kamis) jam 7.00-17.30", "jam kuliah  reguler di unpam itu ada 4 reguler kak yaitu: <br>A(Pagi) senin-jumat jam 7.00-14.00 <br>B(Malam) senin-jumat jam 18.30-21.30 <br>CS(Sabtu) jam 7.00-17.30 <br>CK(Kamis) jam 7.00-17.30"]
@@ -57,7 +53,7 @@
     },
     {"tag": "waktu kuliah s2",
     "patterns": ["kuliah s2 kapan aja?", "waktu kuliah s2", "hari kuliah s2","jam kuliah s2","jam kuliah s2 kapan aja?"],
-    "responses": ["waktu perkuliahan pascasarjana untuk Reg A itu : <br>1) Selasa & rabu jam 08:00 s/d 13:00 WIB. <br>2) Rabu & Jumat jam 13:00 s/d 18.15 WIB. <br>Reg B <br>1) Rabu & Jumat (Blended) jam 18:20 s/d 21.20 WIB. <br>2) Selasa s/d Jumat jam 18:20 s/d 20.50 WIB" , "Jadi kak, waktu perkuliahan pascasarjana di Universitas Pamulang untuk Reg A yaitu : <br>1) Selasa & rabu jam 08:00 s/d 13:00 WIB. <br>2) Rabu & Jumat jam 13:00 s/d 18.15 WIB. <br>Reg B <br>1) Rabu & Jumat (Blended) jam 18:20 s/d 21.20 WIB. <br>2) Selasa s/d Jumat jam 18:20 s/d 20.50 WIB"]
+    "responses": ["waktu perkuliahan pascasarjana<br>Reg A:<br>1) Selasa & rabu jam 08:00 s/d 13:00 WIB. <br>2) Rabu & Jumat jam 13:00 s/d 18.15 WIB. <br>Reg B <br>1) Rabu & Jumat (Blended) jam 18:20 s/d 21.20 WIB. <br>2) Selasa s/d Jumat jam 18:20 s/d 20.50 WIB" , "Jadi kak, waktu perkuliahan pascasarjana di Universitas Pamulang untuk<br>Reg A: <br>1) Selasa & rabu jam 08:00 s/d 13:00 WIB. <br>2) Rabu & Jumat jam 13:00 s/d 18.15 WIB. <br>Reg B<br>1) Rabu & Jumat (Blended) jam 18:20 s/d 21.20 WIB. <br>2) Selasa s/d Jumat jam 18:20 s/d 20.50 WIB"]
     },
     {"tag": "error_login_pmb_online",
     "patterns": ["login di pmb online tapi tidak bisa", "error tidak bisa login", "tidak bisa login pmb online","error login pmb online"],
@@ -88,6 +84,7 @@
     "responses": ["Mahasiswa dengan status Keluar bisa mendaftar kembali menjadi MABA mengikuti alur dari awal pendaftaran sampai keterima menjadi MABA (Mengulang dari awal semester 1)." , "Kalo kamu Mahasiswa dengan status Keluar tentu bisa mendaftar kembali menjadi MABA di unpam mengikuti alur dari awal pendaftaran sampai keterima menjadi MABA (Mengulang dari awal semester 1)."]
     },
     {"tag": "berapa_program_studi",
+    "patterns": ["berapa program studi di unpam", "berapa banyak program studi", "apakah ada program studi", "total prodi"],
     "patterns": ["berapa program studi di unpam", "berapa banyak program studi", "apakah ada program studi", "total prodi"],
     "responses": ["Di unpam sendiri ada 25 prodi kak, mulai dari <br>1)Program Studi Sarjana (S1)<br>-Matematika<br>-Teknik elektro<br>-Teknik Mesin<br>-Teknik Industri<br>-Teknik Kimia<br>-Teknik Elektro<br>-Teknik Informatika<br>-Sistem Informasi<br>-Manajemen<br>-Akuntansi<br>-Sastra Inggris<br>-Sastra Indonesia<br>-Hukum<br>-PPKN<br>-Pendidikan Ekonomi<br>-PGSD<br>-Pendidikan Jasmani<br>-Manajemen Pendidikan Islam<br>-Ekomoni Syariah<br>-Ilmu Komunikasi<br>2)Program Diploma<br>-Akuntansi Perpajakan D4<br>-Administrasi perkanoran D3<br>3)Program Pascasarjana (S2)<br>-Magister Manajemen<br>-Magister Akuntansi<br>-Magister Hukum<br>-Magister Komputer" , "Universitas Pamulang memiliki 25 prodi, mulai dari <br>1)Program Studi Sarjana (S1)<br>-Matematika<br>-Teknik elektro<br>-Teknik Mesin<br>-Teknik Industri<br>-Teknik Kimia<br>-Teknik Elektro<br>-Teknik Informatika<br>-Sistem Informasi<br>-Manajemen<br>-Akuntansi<br>-Sastra Inggris<br>-Sastra Indonesia<br>-Hukum<br>-PPKN<br>-Pendidikan Ekonomi<br>-PGSD<br>-Pendidikan Jasmani<br>-Manajemen Pendidikan Islam<br>-Ekomoni Syariah<br>-Ilmu Komunikasi<br>2)Program Diploma<br>-Akuntansi Perpajakan D4<br>-Administrasi perkanoran D3<br>3)Program Pascasarjana (S2)<br>-Magister Manajemen<br>-Magister Akuntansi<br>-Magister Hukum<br>-Magister Komputer"]
     },
