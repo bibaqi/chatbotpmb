@@ -11,9 +11,7 @@ from sklearn.naive_bayes import MultinomialNB
 from util import JSONParser
 
 def preprocess(chat):
-    # konversi ke non kapital
     chat = chat.lower()
-    # hilangkan tanda baca
     tandabaca = tuple(string.punctuation)
     chat = ''.join(ch for ch in chat if ch not in tandabaca)
     return chat
